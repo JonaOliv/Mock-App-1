@@ -1,0 +1,67 @@
+:root {
+    --blue: #000095;
+    --red: #FE0000;
+    --green: #00D0A7;
+    --sidebar-height: 90vh;
+    --sidebar-width: 30vw;
+    --quarter-1-height: 40vh;
+    --quarter-2-height: 35vh;
+    
+}
+
+#sidebar {
+    display: block;
+    width: var(--sidebar-width);
+    height: var(--sidebar-height);
+    max-width: 100%;
+    float: left;
+    overflow-y: scroll;
+}
+
+.jb-sidebar-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.jb-hr {
+    height: 4px;
+    margin-left: 15px;
+    background-color: var(--blue);
+    opacity: .90;
+}
+
+.jb-quarter-1 {
+    height: var(--quarter-1-height);
+    overflow-y: scroll;
+}
+
+.jb-quarter-2 {
+    height: var(--quarter-2-height);
+    overflow-y: scroll;
+}
+
+.jb-searchbox-sidebar {
+    margin: 0.5em;
+}
+
+.jb-searchbox-search {
+    display: inline;
+    width: 80%;
+}
+
+.jb-searchbox-button {
+    display: inline;
+    width: 20%;
+}
+
+.jb-mininavbar {
+    background-color: var(--green);
+    color: black;
+}
+
+.jb-general-text{
+    font-weight: bold;
+    color: black;
+    --bs-nav-link-color: black;
+}

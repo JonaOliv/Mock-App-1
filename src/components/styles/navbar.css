@@ -1,0 +1,28 @@
+.jb-navbar {
+    background-color: var(--blue);
+    font-weight: bold;
+    color: var(--green);
+    padding: 0;
+}
+
+.jb-navbar-home {
+    padding-right: 2em;
+    color: var(--green);
+}
+
+.jb-navbar-button {
+    display: inline-block;
+    text-align: center;
+    width: 7.5em;
+    color: var(--green);
+}
+
+.jb-navbar-button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.jb-navbar-button-toggled {
+    background-color: darkgoldenrod;
+    color: white;
+}
